@@ -1,0 +1,13 @@
+# Configuration for error reporting emails sent through SES
+reporting_sender: ITS JPO Error Reporting <nickpricebah@gmail.com>
+reporting_recipient: price_nicholas@bah.com
+aws_ses_region: us-east-1
+
+#Configuration needed in Lambda Function:
+# github_password
+# github_username
+# google_api_credentials
+# pg_connection_string
+# socrata_password
+# socrata_username
+# spreadsheet_id_dtg
